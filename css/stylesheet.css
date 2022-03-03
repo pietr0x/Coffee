@@ -1,0 +1,78 @@
+.header {
+  background-image: url("../img/Cafeteria.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+  width: 1600px;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-top_rectangles {
+  margin-top: 39px;
+  margin-left: 84px;
+}
+
+.header-top_title {
+  margin-top: 32px;
+}
+
+.header-top_bag {
+  margin-top: 36px;
+  margin-right: 89px;
+}
+
+.header-bottom {
+  margin-left: 84px;
+}
+
+.header-bottom_rectangles {
+  display: flex;
+}
+
+.header-bottom_rectangle {
+  margin-top: 180px;
+  width: 32px;
+  height: 4px;
+  opacity: 0.5;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.5s, 0.5s opacity;
+}
+
+.header-bottom_rectangle:hover {
+  background: #fff;
+  opacity: 1;
+}
+
+.header-bottom_rectangle:not(:last-child) {
+  margin-right: 8px;
+}
+
+.header-bottom_title {
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 88px;
+  margin-top: 40px;
+  color: #ffffff;
+}
+
+.header-bottom_paragraph {
+  margin-top: 24px;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.header-bottom_arrows {
+  margin-top: 120px;
+}
+
+.header-bottom_arrow {
+  margin-right: 20px;
+}
