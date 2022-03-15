@@ -1,5 +1,11 @@
 body {
   background-color: #fffcf6;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+}
+
+a {
+  text-decoration: none;
 }
 
 .header {
@@ -58,7 +64,9 @@ body {
 }
 
 .header-bottom_title {
-  font-weight: bold;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
   font-size: 80px;
   line-height: 88px;
   margin-top: 40px;
@@ -67,7 +75,10 @@ body {
 
 .header-bottom_paragraph {
   margin-top: 24px;
-  font-weight: normal;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 400;
   font-size: 32px;
   line-height: 40px;
   color: #ffffff;
@@ -90,7 +101,9 @@ body {
 
 .first-section_title1 {
   color: #0b1d03;
-  font-weight: bold;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   position: absolute;
@@ -102,7 +115,10 @@ body {
 
 .first-section_paragraph1 {
   color: #0b1d03;
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   position: absolute;
@@ -121,7 +137,9 @@ body {
 
 .first-section_title2 {
   color: #0b1d03;
-  font-weight: bold;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   position: absolute;
@@ -133,7 +151,10 @@ body {
 
 .first-section_paragraph2 {
   color: #0b1d03;
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   position: absolute;
@@ -160,7 +181,9 @@ body {
   height: 60px;
   left: 80px;
   top: 2468px;
-  font-weight: bold;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   color: #a0996c;
@@ -175,6 +198,9 @@ body {
 }
 
 .second-section_div1 h3 {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -190,7 +216,10 @@ body {
 }
 
 .second-section_div1 p {
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
@@ -199,6 +228,9 @@ body {
 
 .second-section_div1 p span {
   float: right;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -211,7 +243,10 @@ body {
   background: #0b1d03;
   border-radius: 4px;
   color: white;
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -230,6 +265,9 @@ body {
 }
 
 .second-section_div2 h3 {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -245,7 +283,10 @@ body {
 }
 
 .second-section_div2 p {
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
@@ -254,6 +295,9 @@ body {
 
 .second-section_div2 p span {
   float: right;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -266,7 +310,10 @@ body {
   background: #0b1d03;
   border-radius: 4px;
   color: white;
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -285,6 +332,9 @@ body {
 }
 
 .second-section_div3 h3 {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -300,7 +350,10 @@ body {
 }
 
 .second-section_div3 p {
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
@@ -309,6 +362,9 @@ body {
 
 .second-section_div3 p span {
   float: right;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -321,7 +377,10 @@ body {
   background: #0b1d03;
   border-radius: 4px;
   color: white;
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -347,6 +406,9 @@ body {
 }
 
 .second-section_div4 h3 {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -362,7 +424,10 @@ body {
 }
 
 .second-section_div4 p {
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
@@ -371,6 +436,9 @@ body {
 
 .second-section_div4 p span {
   float: right;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -383,7 +451,10 @@ body {
   background: #0b1d03;
   border-radius: 4px;
   color: white;
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -402,6 +473,9 @@ body {
 }
 
 .second-section_div5 h3 {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -417,7 +491,10 @@ body {
 }
 
 .second-section_div5 p {
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
@@ -426,6 +503,9 @@ body {
 
 .second-section_div5 p span {
   float: right;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -438,7 +518,10 @@ body {
   background: #0b1d03;
   border-radius: 4px;
   color: white;
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -457,6 +540,9 @@ body {
 }
 
 .second-section_div6 h3 {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -472,7 +558,10 @@ body {
 }
 
 .second-section_div6 p {
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
@@ -481,6 +570,9 @@ body {
 
 .second-section_div6 p span {
   float: right;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
@@ -493,7 +585,10 @@ body {
   background: #0b1d03;
   border-radius: 4px;
   color: white;
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -506,33 +601,119 @@ body {
 .first-aside_top {
   display: flex;
   justify-content: space-between;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 26px;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: #0b1d03;
-  width: 1600px;
+  margin-bottom: 40px;
   margin-top: 200px;
 }
 
 .top-div1 {
-  padding: 0px 80px 0px 178px;
-  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 32px;
+  margin-left: 80px;
+  font-size: 20px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-weight: 500;
+  font-style: normal;
+  height: 52px;
+  width: 262px;
 }
 
-.first-aside_top div p {
-  padding-top: 24px;
+.top-div1 img {
+  position: relative;
+  top: -15px;
+  height: 40px;
+  width: 66px;
 }
 
 .top-div2 {
-  padding: 0px 100px 0px 0px;
-  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 32px;
+  font-size: 20px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-weight: 500;
+  font-style: normal;
+  height: 52px;
+  width: 262px;
+}
+
+.top-div2 img {
+  position: relative;
+  top: -15px;
+  height: 40px;
+  width: 66px;
+}
+
+.top-div3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 32px;
+  font-size: 20px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-weight: 500;
+  font-style: normal;
+  height: 52px;
+  width: 262px;
+}
+
+.top-div3 img {
+  position: relative;
+  top: -15px;
+  height: 40px;
+  width: 66px;
+}
+
+.top-div4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 32px;
+  font-size: 20px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-weight: 500;
+  font-style: normal;
+  height: 52px;
+  width: 262px;
+}
+
+.top-div4 img {
+  position: relative;
+  top: -15px;
+  height: 40px;
+  width: 66px;
 }
 
 .top-div5 {
-  padding: 0px 130px 0px 0px;
-  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 82px;
+  font-size: 20px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-weight: 500;
+  font-style: normal;
+  height: 52px;
+  width: 262px;
+}
+
+.top-div5 img {
+  position: relative;
+  top: -15px;
+  height: 40px;
+  width: 66px;
 }
 
 .first-aside_bottom {
@@ -543,22 +724,26 @@ body {
 .bottom-div1 {
   background-image: url("../img/cafétijela.jpg");
   background-repeat: no-repeat;
-  margin: 68px 32px 160px 80px;
+  margin: 68px 0px 160px 80px;
   width: 704px;
   height: 560px;
 }
 
 .bottom-div1 h2 {
+  font-family: "Playfair Display";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  color: #fffcf6;
-  padding: 388px 218px 24px 40px;
+  color: white;
   white-space: nowrap;
+  padding: 388px 218px 24px 40px;
 }
 
 .bottom-div1 p {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
@@ -573,20 +758,24 @@ body {
   background-repeat: no-repeat;
   width: 704px;
   height: 560px;
-  margin: 68px 80px 0px 160px;
+  margin: 68px 80px 0px 32px;
 }
 
 .bottom-div2 h2 {
+  font-family: "Playfair Display";
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 56px;
   line-height: 60px;
+  white-space: nowrap;
   color: #fffcf6;
   padding: 388px 385px 24px 40px;
-  white-space: nowrap;
 }
 
 .bottom-div2 p {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 26px;
@@ -598,7 +787,9 @@ body {
 
 .form-title {
   margin: 40px 0px 0px 80px;
-  font-weight: bold;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   color: #0b1d03;
@@ -618,13 +809,16 @@ form select {
   border-radius: 4px;
   width: 459px;
   height: 76px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
   color: #969696;
   padding: 24px 254px 24px 28px;
   margin: 48px 0px 24px 80px;
-  background: url(../img/arrow.svg) no-repeat 70vh;
+  background: url(../img/arrow.svg) no-repeat 45vh;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -638,7 +832,10 @@ form input {
   height: 76px;
   background-image: url(../img/lupa.svg);
   background-repeat: no-repeat;
-  background-position: 155vh;
+  background-position: 100vh;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 28px;
@@ -663,8 +860,10 @@ form input {
 }
 
 .footer-title {
-  font-weight: bold;
-  font-size: 20px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
   line-height: 28px;
   color: #1f1f1f;
   padding: 56px 200px 222px 100px;
@@ -676,8 +875,12 @@ form input {
 }
 
 .footer-list1 a {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 28px;
   color: #1f1f1f;
 }
 
@@ -686,8 +889,12 @@ form input {
 }
 
 .footer-list2 a {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
-  line-height: 40px;
+  line-height: 28px;
   color: #1f1f1f;
 }
 
@@ -701,7 +908,10 @@ form input {
 }
 
 .list-titles {
-  font-weight: bold;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
   line-height: 28px;
   padding-top: 56px;
@@ -714,4 +924,10 @@ form input {
   justify-content: center;
   width: 100%;
   height: 68px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
 }
