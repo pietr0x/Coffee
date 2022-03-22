@@ -30,9 +30,290 @@ a {
   margin-top: 32px;
 }
 
-.header-top_bag {
+.open-modal {
   margin-top: 36px;
   margin-right: 89px;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.modal[open] {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  width: 1600px;
+  height: 1500px;
+  margin: 0px;
+  padding: 0px;
+  background-color: transparent;
+  border: none;
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.modal::backdrop {
+  background: rgba(0, 0, 0);
+  opacity: 0.7;
+}
+
+.modal-left {
+  position: absolute;
+  width: 499px;
+  height: 316px;
+  left: 317px;
+  top: 0px;
+  background: #ffffff;
+  border-radius: 0px 0px 0px 8px;
+}
+
+.modal-left div h4 {
+  width: 315px;
+  height: 40px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  color: #0b1d03;
+  margin: 48px 134px 16px 48px;
+}
+
+.checkout-box {
+  top: 104px;
+  width: 403px;
+  height: 164px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin: 0px 48px 48px 48px;
+  background-image: url(../img/bagcafé.png);
+  background-repeat: no-repeat;
+  background-position: 2.5vh;
+}
+
+.checkout-box h3 {
+  width: 231px;
+  height: 26px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #0b1d03;
+  white-space: nowrap;
+  padding: 24px 32px 0px 140px;
+}
+
+.checkout-box h2 {
+  width: 84px;
+  height: 40px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: #0b1d03;
+  padding: 8px 179px 0px 140px;
+}
+
+.checkout-box p {
+  width: 63px;
+  height: 26px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #a0996c;
+  padding: 16px 200px 24px 140px;
+}
+
+.splitter {
+  position: absolute;
+  width: 2px;
+  height: 316px;
+  left: 814px;
+  top: 0px;
+}
+
+.modal-right {
+  position: relative;
+  left: 816px;
+  top: 0px;
+  height: 900px;
+  background: #ffffff;
+}
+
+.form-title_modal ul {
+  display: flex;
+}
+
+.form-title_modal ul li:first-child {
+  margin-left: 49px;
+  color: #0b1d03;
+}
+
+.form-title_modal ul li {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  color: #969696;
+  margin: 48px 0px 32px 18px;
+}
+
+.form-title_modal ul li:last-child {
+  margin-right: 162px;
+}
+
+.close-modal {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  position: relative;
+  left: 120px;
+  top: -15px;
+}
+
+.form-input1 {
+  position: absolute;
+  top: 60px;
+  left: 18px;
+  border: 2px solid #0b1d03;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 656px;
+  height: 76px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+  padding: 24px 573px 24px 28px;
+}
+
+.form-input2 {
+  position: absolute;
+  top: 210px;
+  left: 2px;
+  border: 2px solid #0b1d03;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 656px;
+  height: 76px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+  padding: 24px 441px 24px 28px;
+  margin: 0px 80px 24px 48px;
+}
+
+.form-input3 {
+  position: absolute;
+  bottom: 488px;
+  left: 2px;
+  border: 2px solid #0b1d03;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 656px;
+  height: 76px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+  padding: 24px 578px 24px 28px;
+  margin: 0px 80px 24px 48px;
+}
+
+.form-input4 {
+  position: absolute;
+  bottom: 385px;
+  left: 2px;
+  border: 2px solid #0b1d03;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 656px;
+  height: 76px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+  padding: 24px 433px 24px 28px;
+  margin: 0px 80px 24px 48px;
+}
+
+.form-input5 {
+  position: absolute;
+  bottom: 131px;
+  left: 2px;
+  border: 2px solid #0b1d03;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 656px;
+  height: 76px;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #969696;
+  padding: 24px 509px 186px 28px;
+  margin: 0px 80px 32px 48px;
+  white-space: nowrap;
+}
+
+input:focus {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+textarea:focus {
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+}
+
+.button-modal {
+  position: absolute;
+  bottom: 5px;
+  left: 1px;
+  background: #0b1d03;
+  border-radius: 4px;
+  color: white;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  width: 656px;
+  height: 76px;
+  margin: 0px 80px 48px 48px;
 }
 
 .header-bottom {

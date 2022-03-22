@@ -5,97 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BlackCoffee</title>
-    <link
-      rel="stylesheet"
-      href="https://meyerweb.com/eric/tools/css/reset/reset200802.css"
-      type="text/css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Khula:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" type="text/css" />
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset200802.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Khula:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
   </head>
-  <body>
-    <header class="header">
-      <section class="header-top">
-        <div class="header-top_rectangles">
-          <a href=""><img src="./img/Rectangle 9.svg" alt="" /></a>
-        </div>
-        <div class="header-top_title">
-          <img src="./img/BlackCoffee.svg" alt="BlackCoffee" />
-        </div>
-        <div class="header-top_bag">
-          <a href=""><img src="./img/Vector.svg" /></a>
-        </div>
-      </section>
-      <section class="header-bottom">
-        <div class="header-bottom_rectangles">
-          <div class="header-bottom_rectangle" tabindex="0"></div>
-          <div class="header-bottom_rectangle" tabindex="1"></div>
-          <div class="header-bottom_rectangle" tabindex="2"></div>
-        </div>
+<body>
+  <section class="modal">
+    <div class="modal-left">
         <div>
-          <h1 class="header-bottom_title">
-            Preparamos o <br />
-            melhor café fresco <br />
-            da torra cada dia
-          </h1>
-          <p class="header-bottom_paragraph">Entregamos em todo Brasil</p>
+            <h4>Seus produtos: 1 item</h3>
         </div>
-        <div class="header-bottom_arrows">
-          <a class="header-bottom_arrow">
-            <img src="./img/Ellipse 2 copy.svg" alt="esquerda" />
-          </a>
-          <a>
-            <img src="./img/Ellipse 2.svg" alt="direita" />
-          </a>
-        </div>
-      </section>
-    </header>
-    <main>
-    <section class="checkout-section">
-        <div class="checkout-left">
-            <div>
-                <h4>Seus produtos: 1 item</h3>
-            </div>
-            <div class="checkout-box">
-          <h3>RUANDA UMARAGE NAT</h3>
-          <h2>40 R$</h2>
-          <p>Excluir</p>
-        </div>
-        </div>
-        <div class="splitter">
-          <img src="./img/Rectangle28.svg" alt="separador">
-        </div>
-        
-        <div class="checkout-right">
-        <form>
-            <div class="form-title">
-                <ul>
-                    <li>Dados personais</li>
-                    <li><img src="./img/setinha.svg" alt="seta"></li>
-                    <li>Forma de pagamento</li>
-                    <li><img src="./img/setinha.svg" alt="seta"></li>
-                    <li>Concluir</li>
-                </ul>          
-        </div>
-        <div>
-          <input class="form-input1" type="text" id="name" placeholder="Nome" required />
-          <input class="form-input2" type="tel" id="tel" placeholder="Número de telefone" required />
-          <input class="form-input3" type="email" id="email" placeholder="Email" required />
-          <input class="form-input4" type="text" id="adress" placeholder="Endereço de entrega" required   />
-          <textarea class="form-input5" placeholder="Comentários"></textarea>
-          <button type="button"class="button">Seguinte</button>
-        </div>
-        </form>
-      </div>
-      </section>
-    </main>
-  </body>
+        <div class="checkout-box">
+      <h3>RUANDA UMARAGE NAT</h3>
+      <h2>40 R$</h2>
+      <p>Excluir</p>
+    </div>
+    </div>
+    <div class="splitter">
+      <img src="./img/Rectangle28.svg" alt="separador">
+    </div>
+    
+    <div class="modal-right">
+    <form>
+        <div class="form-title_modal">
+            <ul>
+                <li>Dados personais</li>
+                <li><img src="./img/setinha.svg" alt="seta"></li>
+                <li>Forma de pagamento</li>
+                <li><img src="./img/setinha.svg" alt="seta"></li>
+                <li>Concluir</li>
+                <li><button class="close-modal"><img src="./img/fechar.svg" alt="fechar"></button></li>
+
+            </ul>          
+    </div>
+    <div>
+      <input class="form-input1" type="text" id="name" placeholder="Nome" required />
+      <input class="form-input2" type="tel" id="tel" placeholder="Número de telefone" required />
+      <input class="form-input3" type="email" id="email" placeholder="Email" required />
+      <input class="form-input4" type="text" id="adress" placeholder="Endereço de entrega" required   />
+      <textarea class="form-input5" placeholder="Comentários"></textarea>
+      <button type="button"class="button-modal">Seguinte</button>
+    </div>
+    </form>
+  </div>
+  </section>
+   
+</body>
 </html>

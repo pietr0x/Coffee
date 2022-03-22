@@ -1,22 +1,19 @@
-body {
-  font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Bold.eot");
-  width: 1600px;
-  height: 900px;
-  margin: 0px;
-  padding: 0px;
-  background: rgba(0, 0, 0, 0.8);
-}
-
 a {
   text-decoration: none;
 }
 
-.checkout-section {
+.modal {
   display: flex;
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.eot");
+  width: 1600px;
+  height: 1200px;
+  margin: 0px;
+  padding: 0px;
+  background-color: red;
 }
 
-.checkout-left {
+.modal-left {
   position: absolute;
   width: 499px;
   height: 316px;
@@ -25,7 +22,7 @@ a {
   background: #ffffff;
 }
 
-.checkout-left div h4 {
+.modal-left div h4 {
   width: 315px;
   height: 40px;
   font-family: "Gilroy";
@@ -102,7 +99,7 @@ a {
   top: 0px;
 }
 
-.checkout-right {
+.modal-right {
   position: absolute;
   left: 816px;
   top: 0px;
@@ -113,19 +110,16 @@ a {
   background: #ffffff;
 }
 
-.form-title ul {
+.form-title_modal ul {
   display: flex;
-  background-image: url("../img/fechar.svg");
-  background-repeat: no-repeat;
-  background-position: 79.5vh 2vw;
 }
 
-.form-title ul li:first-child {
+.form-title_modal ul li:first-child {
   margin-left: 49px;
   color: #0b1d03;
 }
 
-.form-title ul li {
+.form-title_modal ul li {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy-Bold.eot");
   font-style: normal;
@@ -136,8 +130,17 @@ a {
   margin: 48px 0px 32px 18px;
 }
 
-.form-title ul li:last-child {
+.form-title_modal ul li:last-child {
   margin-right: 162px;
+}
+
+.close-modal {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  position: relative;
+  left: 135px;
+  top: -15px;
 }
 
 .form-input1 {
@@ -238,7 +241,7 @@ textarea:focus {
   box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
-.button {
+.button-modal {
   background: #0b1d03;
   border-radius: 4px;
   color: white;
@@ -252,89 +255,4 @@ textarea:focus {
   width: 656px;
   height: 76px;
   margin: 0px 80px 48px 48px;
-}
-
-.header {
-  background-image: url("../img/Cafeteria.jpg");
-  background-repeat: no-repeat;
-  height: 900px;
-  width: 100%;
-  color: white;
-  opacity: 0.4;
-}
-
-.header-top {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header-top_rectangles {
-  margin-top: 39px;
-  margin-left: 84px;
-}
-
-.header-top_title {
-  margin-top: 32px;
-}
-
-.header-top_bag {
-  margin-top: 36px;
-  margin-right: 89px;
-}
-
-.header-bottom {
-  margin-left: 84px;
-}
-
-.header-bottom_rectangles {
-  display: flex;
-}
-
-.header-bottom_rectangle {
-  margin-top: 180px;
-  width: 32px;
-  height: 4px;
-  opacity: 0.5;
-  border-radius: 10px;
-  background: #fff;
-  cursor: pointer;
-  transition: 0.5s, 0.5s opacity;
-}
-
-.header-bottom_rectangle:hover {
-  background: #fff;
-  opacity: 1;
-}
-
-.header-bottom_rectangle:not(:last-child) {
-  margin-right: 8px;
-}
-
-.header-bottom_title {
-  font-family: "Playfair Display";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 80px;
-  line-height: 88px;
-  margin-top: 40px;
-  color: #ffffff;
-}
-
-.header-bottom_paragraph {
-  margin-top: 24px;
-  font-family: "Gilroy";
-  src: url("../fonts/Gilroy-Bold.eot");
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 40px;
-  color: #ffffff;
-}
-
-.header-bottom_arrows {
-  margin-top: 120px;
-}
-
-.header-bottom_arrow {
-  margin-right: 20px;
 }
