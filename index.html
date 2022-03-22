@@ -49,64 +49,60 @@
       </div>
     </section>
   </header>
-
-          <dialog class="modal">
-            <div class="modal-left">
-                <div>
-                    <h4>Seus produtos: 1 item</h3>
-                </div>
-                <div class="checkout-box">
-              <h3>RUANDA UMARAGE NAT</h3>
-              <h2>40 R$</h2>
-              <p>Excluir</p>
-            </div>
-            </div>
-            <div class="splitter">
-              <img src="./img/Rectangle28.svg" alt="separador">
-            </div>
-            <div class="modal-right">
-            <form>
-                <div class="form-title_modal">
-                    <ul>
-                        <li>Dados personais</li>
-                        <li><img src="./img/setinha.svg" alt="seta"></li>
-                        <li>Forma de pagamento</li>
-                        <li><img src="./img/setinha.svg" alt="seta"></li>
-                        <li>Concluir</li>
-                        <li><button class="close-modal"><img src="./img/fechar.svg" alt="fechar"></button></li>
-                    </ul>          
-                  </div>
-            <div>
-              <input class="form-input1" type="text" id="name" placeholder="Nome" required />
-              <input class="form-input2" type="tel" id="tel" placeholder="Número de telefone" required />
-              <input class="form-input3" type="email" id="email" placeholder="Email" required />
-              <input class="form-input4" type="text" id="adress" placeholder="Endereço de entrega" required   />
-              <textarea class="form-input5" placeholder="Comentários"></textarea>
-              <button type="button"class="button-modal">Seguinte</button>
-            </div>
-            </form>
+  <dialog class="modal">
+    <div class="modal-left">
+        <div>
+            <h4>Seus produtos: 1 item</h3>
+        </div>
+        <div class="checkout-box">
+      <h3>RUANDA UMARAGE NAT</h3>
+      <h2>40 R$</h2>
+      <p>Excluir</p>
+    </div>
+    </div>
+    <div class="splitter">
+      <img src="./img/Rectangle28.svg" alt="separador">
+    </div>
+    <div class="modal-right">
+    <form>
+        <div class="form-title_modal">
+            <ul>
+                <li>Dados personais</li>
+                <li><img src="./img/setinha.svg" alt="seta"></li>
+                <li>Forma de pagamento</li>
+                <li><img src="./img/setinha.svg" alt="seta"></li>
+                <li>Concluir</li>
+                <li><button class="close-modal"><img src="./img/fechar.svg" alt="fechar"></button></li>
+            </ul>          
           </div>
-        </dialog>
+    <div>
+      <input class="form-input1" type="text" id="name" placeholder="Nome" required />
+      <input class="form-input2" type="tel" id="tel" placeholder="Número de telefone" required />
+      <input class="form-input3" type="email" id="email" placeholder="Email" required />
+      <input class="form-input4" type="text" id="adress" placeholder="Endereço de entrega" required   />
+      <textarea class="form-input5" placeholder="Comentários"></textarea>
+      <button type="button"class="button-modal">Seguinte</button>
+    </div>
+    </form>
+  </div>
+</dialog>
+<script>
+    const OPEN_BUTTON = document.querySelector('.open-modal');
+    const CLOSE_BUTTON = document.querySelector('.close-modal');
+    const body = document.querySelector('body');
+    const modal = document.querySelector('.modal');
 
-        <script>
-            const OPEN_BUTTON = document.querySelector('.open-modal');
-            const CLOSE_BUTTON = document.querySelector('.close-modal');
-            const body = document.querySelector('body');
-            const modal = document.querySelector('.modal');
+    const openModal = () => {
+      modal.showModal();
+    };
 
-            const openModal = () => {
-              modal.showModal();
-            };
+    const closeModal = () => {
+    modal.close();
+    }
 
-            const closeModal = () => {
-            modal.close();
-            }
-
-            OPEN_BUTTON.addEventListener('click', openModal);
-            CLOSE_BUTTON.addEventListener('click', closeModal);
-       </script>
-
-       
+    OPEN_BUTTON.addEventListener('click', openModal);
+    CLOSE_BUTTON.addEventListener('click', closeModal);
+</script>
     <main>
       <section>
         <div class="first-section_div1">
