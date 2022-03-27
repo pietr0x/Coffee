@@ -36,6 +36,7 @@ a {
   background-color: transparent;
   background-repeat: no-repeat;
   border: none;
+  cursor: pointer;
 }
 
 .modal[open] {
@@ -183,6 +184,7 @@ a {
   position: relative;
   left: 120px;
   top: -15px;
+  cursor: pointer;
 }
 
 .form-input1 {
@@ -201,7 +203,7 @@ a {
   font-size: 20px;
   line-height: 28px;
   color: #969696;
-  padding: 24px 573px 24px 28px;
+  padding: 24px 28px 24px 28px;
 }
 
 .form-input2 {
@@ -220,7 +222,7 @@ a {
   font-size: 20px;
   line-height: 28px;
   color: #969696;
-  padding: 24px 441px 24px 28px;
+  padding: 24px 28px 24px 28px;
   margin: 0px 80px 24px 48px;
 }
 
@@ -240,7 +242,7 @@ a {
   font-size: 20px;
   line-height: 28px;
   color: #969696;
-  padding: 24px 578px 24px 28px;
+  padding: 24px 28px 24px 28px;
   margin: 0px 80px 24px 48px;
 }
 
@@ -260,7 +262,7 @@ a {
   font-size: 20px;
   line-height: 28px;
   color: #969696;
-  padding: 24px 433px 24px 28px;
+  padding: 24px 28px 24px 28px;
   margin: 0px 80px 24px 48px;
 }
 
@@ -280,7 +282,7 @@ a {
   font-size: 20px;
   line-height: 28px;
   color: #969696;
-  padding: 24px 509px 186px 28px;
+  padding: 24px 28px 186px 28px;
   margin: 0px 80px 32px 48px;
   white-space: nowrap;
 }
@@ -314,6 +316,7 @@ textarea:focus {
   width: 656px;
   height: 76px;
   margin: 0px 80px 48px 48px;
+  cursor: pointer;
 }
 
 .header-bottom {
@@ -1121,7 +1124,7 @@ form input {
   font-size: 20px;
   line-height: 28px;
   color: #969696;
-  padding: 24px 756px 24px 28px;
+  padding: 24px 28px 24px 28px;
   margin: 48px 0px 24px 32px;
 }
 
