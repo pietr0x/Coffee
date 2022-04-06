@@ -81,7 +81,7 @@
       <input class="form-input3" type="email" id="email" placeholder="Email" required />
       <input class="form-input4" type="text" id="adress" placeholder="Endereço de entrega" required   />
       <textarea class="form-input5" placeholder="Comentários"></textarea>
-      <button type="button"class="button-modal">Seguinte</button>
+      <button type="submit"class="button-modal">Seguinte</button>
     </div>
     </form>
   </div>
@@ -137,7 +137,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="second-section">
         <h3 class="second-section_title">Variedades de café</h3>
         <div class="second-section1">
           <div class="second-section_div1">
@@ -230,18 +230,15 @@
         </div>
       </aside>
       <section class="third-section">
-        <div>
             <h2 class="form-title">Encontre uma loja</h2>
-            <form action="">
+            <form>
             <select>
-              <option value="">Escolha sua cidade</option>
+              <option>Escolha sua cidade</option>
             </select>
-            <input type="text" placeholder="Digite o Endereço" />
+            <input type="text" id="name" placeholder="Digite o Endereço" required />
           </form>
-          <div class="map">
-            <img src="./img/mapa.jpg" class="mapa" alt="Nosso Endereco" />
-          </div>
         </div>
+            <img class="map" src="./img/mapa.jpg" class="mapa" alt="Nosso Endereco" />
       </section>
     </main>
     <footer class="footer">

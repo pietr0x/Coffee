@@ -1,7 +1,12 @@
+html {
+  width: 100%;
+}
+
 body {
   background-color: #fffcf6;
   font-family: "Gilroy";
   src: url("../fonts/Gilroy-Bold.eot");
+  min-width: 1920px;
 }
 
 a {
@@ -12,8 +17,7 @@ a {
   background-image: url("../img/Cafeteria.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 900px;
-  width: 100%;
+  height:900px
 }
 
 .header-top {
@@ -393,7 +397,7 @@ textarea:focus {
   position: absolute;
   width: 581px;
   height: 60px;
-  left: 939px;
+  left: 1310px;
   top: 1024px;
 }
 
@@ -408,7 +412,7 @@ textarea:focus {
   position: absolute;
   width: 581px;
   height: 160px;
-  left: 939px;
+  left: 1310px;
   top: 1116px;
 }
 
@@ -496,7 +500,7 @@ textarea:focus {
 }
 
 .second-section_div1 img {
-  padding: 0px 144px 32px 143px;
+  padding: 0px 144px 32px 190px;
 }
 
 .second-section_div1 p {
@@ -507,7 +511,7 @@ textarea:focus {
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
-  padding: 0px 150px 48px 148px;
+  padding: 0px 150px 48px 200px;
 }
 
 .second-section_div1 p span {
@@ -520,7 +524,7 @@ textarea:focus {
   line-height: 28px;
   letter-spacing: 0.04em;
   color: #969696;
-  padding: 9px 0px 0px 0px;
+  padding: 10px 60px 0px 0px;
 }
 
 .second-section_div1 button {
@@ -537,7 +541,7 @@ textarea:focus {
   position: absolute;
   width: 395px;
   height: 76px;
-  margin: 0px 32px 32px 32px;
+  margin: 0px 32px 32px 85px;
 }
 
 .second-section_div2 {
@@ -563,7 +567,7 @@ textarea:focus {
 }
 
 .second-section_div2 img {
-  padding: 0px 144px 32px 143px;
+  padding: 0px 144px 32px 190px;
 }
 
 .second-section_div2 p {
@@ -574,7 +578,7 @@ textarea:focus {
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
-  padding: 0px 150px 48px 148px;
+  padding: 0px 150px 48px 200px;
 }
 
 .second-section_div2 p span {
@@ -587,7 +591,7 @@ textarea:focus {
   line-height: 28px;
   letter-spacing: 0.04em;
   color: #969696;
-  padding: 9px 0px 0px 0px;
+  padding: 10px 60px 0px 0px;
 }
 
 .second-section_div2 button {
@@ -604,7 +608,7 @@ textarea:focus {
   position: absolute;
   width: 395px;
   height: 76px;
-  margin: 0px 32px 32px 32px;
+  margin: 0px 32px 32px 85px;
 }
 
 .second-section_div3 {
@@ -630,7 +634,7 @@ textarea:focus {
 }
 
 .second-section_div3 img {
-  padding: 0px 144px 32px 143px;
+  padding: 0px 144px 32px 190px;
 }
 
 .second-section_div3 p {
@@ -641,7 +645,7 @@ textarea:focus {
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
-  padding: 0px 150px 48px 148px;
+  padding: 0px 150px 48px 200px;
 }
 
 .second-section_div3 p span {
@@ -654,7 +658,7 @@ textarea:focus {
   line-height: 28px;
   letter-spacing: 0.04em;
   color: #969696;
-  padding: 9px 0px 0px 0px;
+  padding: 10px 60px 0px 0px;
 }
 
 .second-section_div3 button {
@@ -671,7 +675,7 @@ textarea:focus {
   position: absolute;
   width: 395px;
   height: 76px;
-  margin: 0px 32px 32px 32px;
+  margin: 0px 32px 32px 85px;
 }
 
 .second-section2 {
@@ -704,7 +708,7 @@ textarea:focus {
 }
 
 .second-section_div4 img {
-  padding: 0px 144px 32px 143px;
+  padding: 0px 144px 32px 190px;
 }
 
 .second-section_div4 p {
@@ -715,7 +719,7 @@ textarea:focus {
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
-  padding: 0px 150px 48px 148px;
+  padding: 0px 150px 48px 200px;
 }
 
 .second-section_div4 p span {
@@ -728,7 +732,7 @@ textarea:focus {
   line-height: 28px;
   letter-spacing: 0.04em;
   color: #969696;
-  padding: 9px 0px 0px 0px;
+  padding: 10px 60px 0px 0px;
 }
 
 .second-section_div4 button {
@@ -745,7 +749,7 @@ textarea:focus {
   position: absolute;
   width: 395px;
   height: 76px;
-  margin: 0px 32px 32px 32px;
+  margin: 0px 32px 32px 85px;
 }
 
 .second-section_div5 {
@@ -771,7 +775,7 @@ textarea:focus {
 }
 
 .second-section_div5 img {
-  padding: 0px 144px 32px 143px;
+  padding: 0px 144px 32px 190px;
 }
 
 .second-section_div5 p {
@@ -782,7 +786,7 @@ textarea:focus {
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
-  padding: 0px 150px 48px 148px;
+  padding: 0px 150px 48px 200px;
 }
 
 .second-section_div5 p span {
@@ -795,7 +799,7 @@ textarea:focus {
   line-height: 28px;
   letter-spacing: 0.04em;
   color: #969696;
-  padding: 9px 0px 0px 0px;
+  padding: 10px 60px 0px 0px;
 }
 
 .second-section_div5 button {
@@ -812,7 +816,7 @@ textarea:focus {
   position: absolute;
   width: 395px;
   height: 76px;
-  margin: 0px 32px 32px 32px;
+  margin: 0px 32px 32px 85px;
 }
 
 .second-section_div6 {
@@ -838,7 +842,7 @@ textarea:focus {
 }
 
 .second-section_div6 img {
-  padding: 0px 144px 32px 143px;
+  padding: 0px 144px 32px 190px;
 }
 
 .second-section_div6 p {
@@ -849,7 +853,7 @@ textarea:focus {
   font-size: 32px;
   line-height: 40px;
   color: #0b1d03;
-  padding: 0px 150px 48px 148px;
+  padding: 0px 150px 48px 200px;
 }
 
 .second-section_div6 p span {
@@ -862,7 +866,7 @@ textarea:focus {
   line-height: 28px;
   letter-spacing: 0.04em;
   color: #969696;
-  padding: 9px 0px 0px 0px;
+  padding: 10px 60px 0px 0px;
 }
 
 .second-section_div6 button {
@@ -879,7 +883,7 @@ textarea:focus {
   position: absolute;
   width: 395px;
   height: 76px;
-  margin: 0px 32px 32px 32px;
+  margin: 0px 32px 32px 85px;
 }
 
 .first-aside_top {
@@ -1008,9 +1012,9 @@ textarea:focus {
 .bottom-div1 {
   background-image: url("../img/cafétijela.jpg");
   background-repeat: no-repeat;
+  background-size: 900px 560px;
   margin: 68px 0px 160px 80px;
-  width: 704px;
-  height: 560px;
+width: 900px;
 }
 
 .bottom-div1 h2 {
@@ -1040,8 +1044,8 @@ textarea:focus {
 .bottom-div2 {
   background-image: url("../img/cafeteira.jpg");
   background-repeat: no-repeat;
-  width: 704px;
-  height: 560px;
+  background-size: 900px 560px;
+  width: 900px;
   margin: 68px 80px 0px 32px;
 }
 
@@ -1069,7 +1073,13 @@ textarea:focus {
   white-space: nowrap;
 }
 
+.third-section {
+  background: #ffffff;
+}
+
 .form-title {
+  position: relative;
+  top: 50px;
   margin: 40px 0px 0px 80px;
   font-family: "Playfair Display";
   font-style: normal;
@@ -1077,10 +1087,6 @@ textarea:focus {
   font-size: 56px;
   line-height: 60px;
   color: #0b1d03;
-}
-
-.third-section {
-  background: #ffffff;
 }
 
 form {
@@ -1091,7 +1097,7 @@ form select {
   border: 2px solid #0b1d03;
   box-sizing: border-box;
   border-radius: 4px;
-  width: 459px;
+  width: 599px;
   height: 76px;
   font-family: "Gilroy";
   src: url("../fonts/Gilroy-Bold.eot");
@@ -1100,9 +1106,9 @@ form select {
   font-size: 20px;
   line-height: 28px;
   color: #969696;
-  padding: 24px 254px 24px 28px;
-  margin: 48px 0px 24px 80px;
-  background: url(../img/arrow.svg) no-repeat 45vh;
+  padding: 24px 28px 24px 28px;
+  margin: 100px 0px 24px 80px;
+  background: url(../img/arrow.svg) no-repeat 105vh;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -1112,11 +1118,11 @@ form input {
   border: 2px solid #0b1d03;
   box-sizing: border-box;
   border-radius: 4px;
-  width: 949px;
+  width: 1124px;
   height: 76px;
   background-image: url(../img/lupa.svg);
   background-repeat: no-repeat;
-  background-position: 100vh;
+  background-position: 205vh;
   font-family: "Gilroy";
   src: url("../fonts/Gilroy-Bold.eot");
   font-style: normal;
@@ -1125,11 +1131,13 @@ form input {
   line-height: 28px;
   color: #969696;
   padding: 24px 28px 24px 28px;
-  margin: 48px 0px 24px 32px;
+  margin: 101.2px 0px 24px 32px;
 }
 
 .map {
-  margin: 0px 80px 40px 80px;
+  margin: 0px 80px 50px 80px;
+  width:1760px;
+  height:512px;
 }
 
 .footer {
