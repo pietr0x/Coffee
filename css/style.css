@@ -6,7 +6,7 @@ body {
   background-color: #fffcf6;
   font-family: "Gilroy";
   src: url("../fonts/Gilroy-Bold.eot");
-  min-width: 1920px;
+  width: 100%
 }
 
 a {
@@ -377,9 +377,9 @@ textarea:focus {
 }
 
 .first-section_div1 {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row-reverse;
+  display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 60px;
   margin: 120px 80px 0px 80px;
 }
 
@@ -390,11 +390,7 @@ textarea:focus {
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  position: absolute;
-  width: 581px;
-  height: 60px;
-  left: 1310px;
-  top: 1024px;
+  white-space: nowrap;
 }
 
 .first-section_paragraph1 {
@@ -405,18 +401,15 @@ textarea:focus {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  position: absolute;
-  width: 581px;
-  height: 160px;
-  left: 1310px;
-  top: 1116px;
+  white-space: nowrap;
+  margin-top: 32px;
 }
 
 .first-section_div2 {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+  display: grid;
+grid-template-columns: 1fr 1fr;
   margin: 144px 80px 184px 80px;
+  gap: 60px;
 }
 
 .first-section_title2 {
@@ -426,11 +419,7 @@ textarea:focus {
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
-  position: absolute;
-  width: 581px;
-  height: 60px;
-  left: 203px;
-  top: 1724px;
+  white-space: nowrap;
 }
 
 .first-section_paragraph2 {
@@ -441,22 +430,14 @@ textarea:focus {
   font-weight: 700;
   font-size: 32px;
   line-height: 40px;
-  position: absolute;
-  width: 581px;
-  height: 120px;
-  left: 203px;
-  top: 1816px;
-}
-
-.first-section_image {
-  margin-left: 730px;
+  white-space: nowrap;
+  margin-top: 32px;
 }
 
 .second-section1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
 }
 
 .second-section_title {
@@ -554,7 +535,7 @@ textarea:focus {
   border-radius: 8px;
   width: 565px;
   height: 565px;
-  margin: 0px 0px 0px 0px;
+  margin: 150px 0px 0px 0px;
 }
 
 .second-section_div2 h3 {
@@ -626,7 +607,7 @@ textarea:focus {
   border-radius: 8px;
   width: 565px;
   height: 565px;
-  margin: 0px 80px 0px 0px;
+  margin: 150px 80px 0px 0px;
 }
 
 .second-section_div3 h3 {
@@ -692,10 +673,9 @@ textarea:focus {
 }
 
 .second-section2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 35px;
 }
 
 .second-section_div4 ul {
@@ -1735,16 +1715,14 @@ margin: 0px 0px 0px 0px;
 }
 
 .first-aside_top {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+gap: 70px;
+margin-bottom: 40px;
   margin-top: 200px;
 }
 
 .top-div1 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   margin-right: 32px;
   margin-left: 80px;
@@ -1765,9 +1743,6 @@ margin: 0px 0px 0px 0px;
 }
 
 .top-div2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   margin-right: 32px;
   font-size: 20px;
@@ -1787,9 +1762,6 @@ margin: 0px 0px 0px 0px;
 }
 
 .top-div3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   margin-right: 32px;
   font-size: 20px;
@@ -1809,9 +1781,6 @@ margin: 0px 0px 0px 0px;
 }
 
 .top-div4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   margin-right: 32px;
   font-size: 20px;
@@ -1831,9 +1800,6 @@ margin: 0px 0px 0px 0px;
 }
 
 .top-div5 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   text-align: center;
   margin-right: 82px;
   font-size: 20px;
@@ -1853,16 +1819,15 @@ margin: 0px 0px 0px 0px;
 }
 
 .first-aside_bottom {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .bottom-div1 {
   background-image: url("../img/cafétijela.jpg");
   background-repeat: no-repeat;
-  background-size: 900px 560px;
+  background-size: 704px 560px;
   margin: 68px 0px 160px 80px;
-width: 900px;
 }
 
 .bottom-div1 h2 {
@@ -1892,8 +1857,7 @@ width: 900px;
 .bottom-div2 {
   background-image: url("../img/cafeteira.jpg");
   background-repeat: no-repeat;
-  background-size: 900px 560px;
-  width: 900px;
+  background-size: 704px 560px;
   margin: 68px 80px 0px 32px;
 }
 
@@ -1938,14 +1902,14 @@ width: 900px;
 }
 
 form {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1.3fr 2.2fr;
 }
 
 form select {
   border: 2px solid #0b1d03;
   box-sizing: border-box;
   border-radius: 4px;
-  width: 30%;
   height: 76px;
   font-family: "Gilroy";
   src: url("../fonts/Gilroy-Bold.eot");
@@ -1966,7 +1930,6 @@ form select {
   border: 2px solid #0b1d03;
   box-sizing: border-box;
   border-radius: 4px;
-  width: 59.6%;
   height: 76px;
   background-image: url(../img/lupa.svg);
   background-repeat: no-repeat;
@@ -1984,7 +1947,7 @@ form select {
 
 .map {
   margin: 0px 80px 50px 80px;
-  width:91.4%;
+  width:100%;
   height:512px;
 }
 
@@ -1994,9 +1957,11 @@ form select {
 }
 
 .footer-div {
-  display: flex;
-  justify-content: space-between;
-  background-color: #f7f1e6;
+  display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr; 
+gap: 200px; 
+background-color: #f7f1e6;
+white-space: nowrap;
 }
 
 .footer-title {
@@ -2006,11 +1971,10 @@ form select {
   font-size: 28px;
   line-height: 28px;
   color: #1f1f1f;
-  padding: 56px 200px 222px 100px;
+  padding: 56px 0px 222px 100px;
 }
 
 .footer-list1 {
-  padding-right: 230px;
   padding-bottom: 80px;
 }
 
@@ -2024,10 +1988,6 @@ form select {
   color: #1f1f1f;
 }
 
-.footer-list2 {
-  padding-right: 230px;
-}
-
 .footer-list2 a {
   font-family: "Gilroy";
   src: url("../fonts/Gilroy-Bold.eot");
@@ -2036,15 +1996,6 @@ form select {
   font-size: 20px;
   line-height: 28px;
   color: #1f1f1f;
-}
-
-.footer-list3 {
-  padding-right: 80px;
-}
-
-.footer-list3 li {
-  display: inline-block;
-  padding-right: 26px;
 }
 
 .list-titles {
@@ -2056,6 +2007,10 @@ form select {
   line-height: 28px;
   padding-top: 56px;
   padding-bottom: 18px;
+}
+
+.footer-list3 {
+  margin-right: 80px;
 }
 
 .copyright {
