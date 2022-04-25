@@ -602,6 +602,17 @@ text-align: center;
 
 }
 
+@media screen and (max-width: 320px) {
+  .variety-section_title {
+    white-space: nowrap;
+  }
+  
+  .variety-list_item h3 {
+margin: 0px 97px 0px 97px;
+  }
+  
+}
+
 .first-aside_top {
   display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
